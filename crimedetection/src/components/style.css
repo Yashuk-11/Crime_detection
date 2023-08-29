@@ -1,0 +1,153 @@
+
+/* Background Container */
+.background-container {
+    background-color: rgb(110, 110, 209);
+    background-image: url('./crimecars.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-image-container {
+   
+    background-size: cover; /* Adjust this as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+  
+
+  .form-container{
+    width: 500px;
+    height: 800px;
+    background-color: rgba(231, 216, 7, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+  }
+  
+  /* Grey Box */
+  .boxStyle {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+   /* align-items: center;*/
+    flex-direction: column;
+  }
+  
+  .boxStyle1 {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+  }
+  /* Heading */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  }
+
+  .labeling {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+   
+    margin-left: 40px;
+    color: #c012c0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  }
+  
+  .label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color: #fff1ea62;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  }
+  /* Input */
+  .input {
+    width: 80%;
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 16px;
+    border: darkorchid;
+    border-radius: 5px;
+  }
+  
+  .input1 {
+    width: 5%;
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 16px;
+    border: darkorchid;
+    border-radius: 5px;
+  }
+  
+.but {
+    background-color: #ff9900; /* Orange color */
+    color: white;
+    align-items: center;
+    width: 100px; /* Set the width */
+    height: 50px; /* Set the height */
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 10px; /* Increase border radius for rounded corners */
+    font-size: 18px; /* Increase font size */
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 190px;
+    transition: background-color 0.2s; /* Add a smooth transition effect */
+  }
+  .butt {
+    background-color: #ff9900; /* Orange color */
+    color: white;
+    width: 200px; /* Set the width */
+    height: 50px; /* Set the height */
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 10px; /* Increase border radius for rounded corners */
+    font-size: 18px; /* Increase font size */
+    cursor: pointer;
+    transition: background-color 0.2s; /* Add a smooth transition effect */
+    margin-left:50px;
+    margin-top:5px;
+  }
+  
+  .but:hover {
+    background-color: #ffcc00; /* Lighter color on hover */
+  }
+  .signup-link {
+    margin-top: 10px;
+    text-align: center;
+    color:white; 
+  }
+  
+  .signup-link a {
+    color:black; /* Blue color for the link */
+    text-decoration: none; /* Remove underlines */
+    font-weight: bold;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
